@@ -3,7 +3,7 @@
     grid-template-columns: 1fr 1fr;
     max-width: 80%;
     margin: auto;
-    padding: 70px 0px 60px;
+    padding: 90px 0px 60px;
 }
 
 .one{
@@ -47,6 +47,7 @@ form {
       background: #6D2E46;
       color: white;
       border: none;
+      width: 20%;
     }
 
     .submit-button{
@@ -66,11 +67,20 @@ form {
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (max-width: 600px) {
+    .contact{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
     .contact-form{
+        max-width: 100%;
+        margin-top: 20px;
+    }
+      form {
         max-width: 100%;
     }
 
-    form {
-      width: 80%;
+    label {
+        margin: 10px 0px 10px;
+      }
   }
-}

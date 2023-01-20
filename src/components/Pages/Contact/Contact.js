@@ -31,15 +31,26 @@ const Contact = () => {
   return (
     <div className='contact'>
         <div className="one">
-        <div>
-          <p className="name">Sayesta Goswami, PhD </p>
-          <p className="tiny-text">CLINICAL PSYCHOLOGIST</p>
+          <div>
+            <p className="name">Sayesta Goswami, PhD </p>
+            <p className="tiny-text">CLINICAL PSYCHOLOGIST</p>
+          </div>
+          <div className="address">
+          <i class="footer-icon fa-solid fa-location-dot"></i>
+            <div>
+              <p className="footer-text">Anchal Tower, Sixmile, </p>
+              <p className="footer-text"> Guwahati, Assam 781022, India</p>
+            </div>
+          </div>
+          <div className="address">
+          <i class="footer-icon fa-solid fa-phone"></i>
+            <p className="footer-text">+918333552221</p>
+          </div>
+          <div className="address">
+          <i class="footer-icon fa-solid fa-envelope"></i>
+            <p className="footer-text">sayestagoswami.pt@gmail.com</p>
+          </div>
         </div>
-          <p className="footer-text">Anchal Tower, Sixmile, </p>
-          <p className="footer-text"> Guwahati, Assam 781022, India</p>
-        <p className="footer-text">+918333552221</p>
-        <p className="footer-text">sayestagoswami.pt@gmail.com</p>
-      </div>
       <div className='contact-form'>
     <form ref={form} onSubmit={sendEmail}>
       <label>Name</label>
