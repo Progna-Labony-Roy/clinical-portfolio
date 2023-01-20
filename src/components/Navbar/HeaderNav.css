@@ -1,9 +1,4 @@
-.nav-name{
-    font-size: 10px;
-    color: #6D2E46;
-}
-
-.nav-tiny-text{
-    font-size: 10px;
-    color: #6D2E46;
+.nav-link{
+    text-decoration: none;
+    padding-left: 10px;
 }

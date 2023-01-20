@@ -1,0 +1,84 @@
+.about-heading {
+    color: #6D2E46;
+    margin-top: 80px;
+    font-size: x-large;
+    font-weight: 600;
+}
+
+.about {
+    display: flex;
+    justify-content: center;
+    max-width: 90%;
+    margin: auto;
+}
+
+.about-img {
+    width: 350px;
+    height: 550px;
+    padding: 60px 25px 50px 50px;
+    object-fit: cover;
+}
+
+.about-button1, .about-button2{
+        border: 1px solid #E7E6E4;
+        border-radius: 5px;
+        padding: 5px 17px;
+        font-size: 12px;
+        margin-bottom: 100px;
+}
+
+.about-button2{
+    display: none;
+}
+
+.about-text {
+    font-size: 13px;
+    padding: 60px 50px 50px 25px;
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+    
+    .about {
+        max-width: 100%;
+    }
+
+    .about-img {
+        width: 320px;
+    }
+
+
+    .about-text {
+        font-size: 13px;
+        padding: 60px 45px 50px 10px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+    .about-heading {
+        margin-top: 50px;
+    }
+
+    .about {
+        max-width: 100%;
+    }
+
+    .about-img {
+        display: none;
+    }
+
+    .about-button1{
+        display: none;
+    }
+
+    .about-text {
+        font-size: 13px;
+        padding: 30px 25px 10px;
+    }
+
+    .about-button2{
+        display: flex;
+        margin: 0px auto 100px;
+    }
+}

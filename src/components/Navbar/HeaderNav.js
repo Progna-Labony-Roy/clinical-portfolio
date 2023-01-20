@@ -21,9 +21,9 @@ const HeaderNav = () => {
            
           </Nav>
           <Nav>
-          <Link to="/">HOME</Link>
-            <Link to="/about">ABOUT</Link>
-            <Link to="/contactus">CONTACT US</Link>
+          <Link className='nav-link' to="/"><li>HOME</li></Link>
+            <Link className='nav-link' to="/about">ABOUT</Link>
+            <Link className='nav-link' to="/contact">CONTACT ME</Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
