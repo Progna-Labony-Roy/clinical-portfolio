@@ -1,0 +1,59 @@
+.header{
+    margin-top: 50px;
+    height: 500px;
+    object-fit: cover;
+    background: url("https://images.unsplash.com/photo-1544717302-de2939b7ef71?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
+}
+
+.header-info{
+    display: flex;
+    justify-content: space-around;
+}
+
+.header-text{
+    display: flex;
+    flex-direction: column;
+    margin-top: 35%;
+}
+
+.font-baby{
+    font-weight: 600;
+    font-size: 42px;
+    font-family: 'Oooh Baby', cursive;
+}
+
+.text-title1{
+    font-size: 18px;
+}
+
+.text-title2{
+    font-size: 14px;
+}
+
+.button{
+    background: #6D2E46;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 5px 15px;
+    margin-top: 50px;
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+    .header-info{
+        display: flex;
+        justify-content: column;
+        align-items: center;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+    .header-info{
+        display: flex;
+        justify-content: column;
+        align-items: center;
+    }
+}

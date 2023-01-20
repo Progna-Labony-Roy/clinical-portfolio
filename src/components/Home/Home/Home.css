@@ -1,0 +1,42 @@
+.home{
+    padding: 100px 300px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.baby-font{
+    color: #6D2E46;;
+    font-family: 'Oooh Baby', cursive;
+}
+
+.text-color{
+    color: #6D2E46;;
+    font-weight: 600;
+}
+
+.home-text{
+    font-size: 12px;
+}
+
+.line-style{
+    color: #6D2E46;
+    border: 1px solid;
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+    .home{
+        padding: 80px 60px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+    .home{
+        padding: 80px 80px;
+    }
+}
+
