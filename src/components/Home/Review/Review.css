@@ -2,3 +2,43 @@
     font-weight: 600;
     margin-top: 60px;
 }
+
+.review{
+    padding: 50px 300px
+}
+
+.review-slider{
+    display: flex;
+    justify-content: space-between;
+}
+
+.silder-image{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    margin-top: -50px;
+    
+}
+
+.star{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.slider-text{
+    font-size: 12px;
+    margin-top: -50px;
+    padding-right: 30px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 15;
+    -webkit-box-orient: vertical;
+}
+
+.second-section{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: baseline;
+}
